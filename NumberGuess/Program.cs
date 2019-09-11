@@ -53,7 +53,7 @@ namespace NumberGuess
                     //Checks User's input and set the range of the guesses
                     if (secondInput == "Greater" || secondInput == "greater")
                     {
-                        _min = rangeChange;
+                        _min = rangeChange + 1;
                         correctGuess = false;
                     }
                     else if (secondInput == "Lesser" || secondInput == "lesser")
@@ -63,7 +63,6 @@ namespace NumberGuess
                     }
                 }
             }
-
         }
     }
 }
