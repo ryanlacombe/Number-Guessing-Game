@@ -23,7 +23,7 @@ namespace NumberGuess
             int rangeChange;
 
             //Prompts User to think of a number
-            Console.WriteLine("Think of a number from " + _min + " to 10.");
+            Console.WriteLine("Think of a number from " + _min + " to " + (_max - 1) + ".");
             Console.ReadKey();
 
             while (!correctGuess)
