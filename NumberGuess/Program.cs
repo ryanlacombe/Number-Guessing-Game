@@ -58,7 +58,7 @@ namespace NumberGuess
                     }
                     else if (secondInput == "Lesser" || secondInput == "lesser")
                     {
-                        _max = rangeChange + 1;
+                        _max = rangeChange;
                         correctGuess = false;
                     }
                 }
